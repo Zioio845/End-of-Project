@@ -95,7 +95,7 @@
   .nav-list li a.active .chevron { color: rgba(255,255,255,0.7); }
 
   /* ── MAIN ── */
-  #main {
+  #main-conttent {
     margin-left: 220px;
     flex: 1;
     background: #fff;
@@ -129,7 +129,7 @@
     margin-bottom: 24px;
   }
 
-  .btn-nav {
+  .button-nav {
     background: #04AA6D;
     color: #fff;
     border: none;
@@ -139,7 +139,7 @@
     cursor: pointer;
     font-family: inherit;
   }
-  .btn-nav:hover { background: #038a57; }
+  .button-nav:hover { background: #038a57; }
 
   hr.divider {
     border: none;
