@@ -18,7 +18,7 @@
                 <li><a href="#" class ="active">Giới thiệu HTML</a></li>
             </ul>
             <!-- list nội dung -->
-            <ul class = "nav-list">
+            <ul class = "nav-list"> 
                 <li><a href="#">???</a></li>
                 <li><a href="#">???</a></li>
                 <li><a href="#">???</a></li>
@@ -27,14 +27,66 @@
 
         <!-- Nội dung chính -->
         <div id="main-conttent">
+            <!-- Tiêu để trang -->
+            <div class = "page-header">
+                <h1 class="page-title">Giới thiệu HTML</h1>
+            </div>
 
             <!-- nút chuyển nội dung -->
             <div ckass = "nav-button">
                 <button class = "button-nav">❮ Previous</button>
                 <button class = "button-nav">Next ❯</button>
             </div>
+            
+            <!-- intro -->
+            <p class ="intro-text">
+                HTML là ngôn ngữ đánh dấu tiêu chuẩn để tạo các trang web. <br>
+                Trong hôm nay, chúng ta sẽ xem xét một số ví dụ HTML cơ bản nhé!!
+            </p>            
+    
+            <hr class ="divider"> 
+            <!-- 1 -->
+            <h2 class ="section-title">HTML Là gì?</h2>
+            <ul class = "ullet-list">
+                <li>HTML là viết tắt của Hyper Text Markup Language (Ngôn ngữ đánh dấu siêu văn bản) </li>
+                <li>HTML là ngôn ngữ đánh dấu chuẩn để tạo các trang web </li>
+                <li>HTML mô tả cấu trúc của một trang web </li>
+                <li>HTML bao gồm một loạt các phần tử</li>
+                <li>Các phần tử HTML cho trình duyệt biết cách hiển thị nội dung</li>
+                <li> Các phần tử HTML gắn nhãn cho các phần nội dung như "đây là tiêu đề", "đây là đoạn văn", "đây là liên kết", v.v.</li>
+            </ul> 
 
-            <p>nội dung</p>
+          
+            <hr class ="divider">
+            <!-- 2 -->
+            <h2 class ="section-title">Một tài liệu HTML đơn giản</h2>
+
+            <!-- code area -->
+             <!--  <span class ="tag">&lt; == "<"
+                    <span class ="tag">&gt; == ">"
+                    &nbsp;&nbsp; == tab-->
+
+            <div class ="example-box">
+                <div class ="example-label">Example</div>
+                <div class ="code-box">
+                    <span class ="comment">&lt;!DOCTYPE html&gt;</span><br>
+                    <span class ="tag">&lt;</span><span class ="tagname">html</span><span class ="tag">&gt;</span><br>
+                    <span class ="tag">&lt;</span><span class ="tagname">head</span><span class ="tag">&gt;</span><br>
+                    &nbsp;&nbsp;<span class ="tag">&lt;</span><span class ="tagname">title</span><span class ="tag">&gt;</span>Tiêu đề trang
+                        <span class ="tag">&lt;/</span><span class ="tagname">title</span><span class ="tag">&gt;</span><br>
+                    <span class ="tag">&lt;/</span><span class ="tagname">head</span><span class ="tag">&gt;</span><br>
+                    <span class ="tag">&lt;</span><span class ="tagname">body</span><span class ="tag">&gt;</span><br>
+
+                    &nbsp;&nbsp;<span class ="tag">&lt;</span><span class ="tagname">h1</span><span class ="tag">&gt;</span>Heading
+                        <span class ="tag">&lt;/</span><span class ="tagname">h1</span><span class ="tag">&gt;</span><br>
+                    &nbsp;&nbsp;<span class ="tag">&lt;</span><span class ="tagname">p</span><span class ="tag">&gt;</span>Đoạn paragraph 
+                        <span class ="tag">&lt;/</span><span class ="tagname">p</span><span class ="tag">&gt;</span><br>
+
+                    <span class ="tag">&lt;/</span><span class ="tagname">body</span><span class ="tag">&gt;</span><br>
+                    <span class ="tag">&lt;/</span><span class ="tagname">html</span><span class ="tag">&gt;</span><br>
+                </div>
+            </div>
+
         </div>
 	</body>
 </html>
